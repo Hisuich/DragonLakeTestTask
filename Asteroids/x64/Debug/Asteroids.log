@@ -1,0 +1,3 @@
+﻿  global.cpp
+c:\users\david\source\repos\asteroids\asteroids\global.cpp(16): warning C4305: '=': truncation from 'double' to 'float'
+  Asteroids.vcxproj -> C:\Users\david\source\repos\Asteroids\x64\Debug\Asteroids.exe
