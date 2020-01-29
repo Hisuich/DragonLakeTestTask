@@ -8,5 +8,5 @@ GameObject::GameObject()
 
 GameObject::~GameObject()
 {
-		delete sprite;
+		destroySprite(sprite);
 }
