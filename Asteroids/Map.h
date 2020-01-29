@@ -1,8 +1,8 @@
 #pragma once
-#include "global.h"
-#include "GameObject.h"
-#include "Player.h"
-#include "Asteroid.h"
+#include <global.h>
+#include <GameObject.h>
+#include <Player.h>
+#include <Asteroid.h>
 #include <math.h>
 #include <vector>
 

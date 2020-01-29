@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Point.h"
-#include "Framework.h"
+#include <Point.h>
+#include <Framework.h>
 
 class Cursor
 {

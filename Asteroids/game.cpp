@@ -1,17 +1,17 @@
-#include "Framework.h"
-#include "Map.h"
-#include "global.h"
-#include "GameObject.h"
-#include "Player.h"
-#include "Asteroid.h"
-#include "Cursor.h"
+#include <Framework.h>
+#include <Map.h>
+#include <global.h>
+#include <GameObject.h>
+#include <Player.h>
+#include <Asteroid.h>
+#include <Cursor.h>
 #include <iostream>
 #include <string>
 
 int w = 800;
 int h = 600;
 /* Test Framework realization */
-class MyFramework : public Framework {
+class DragonLakeTestTask : public Framework {
 
 public:
 	Player* player;
@@ -90,7 +90,7 @@ public:
 	
 	virtual const char* GetTitle() override
 	{
-		return "asteroids";
+		return "DragonLakeTestTask";
 	}
 };
 
@@ -201,5 +201,5 @@ int main(int argc, char* argv[])
 		}
 
 	}
-	return run(new MyFramework);
+	return run(new DragonLakeTestTask);
 }
